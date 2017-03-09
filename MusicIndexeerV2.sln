@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2", "MusicIndexeerV2\MusicIndexeerV2.csproj", "{699B91FB-A531-48BA-933F-9B1F55D04F10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2.Usercontrols", "..\MusicIndexeerV2.Usercontrols\MusicIndexeerV2.Usercontrols.csproj", "{93C8874F-6EB2-41CE-9443-ED95A4D82B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2.Tests", "MusicIndexeerV2.Tests\MusicIndexeerV2.Tests.csproj", "{21712CE2-F3B6-4C8B-84C1-62FF6B7018B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{699B91FB-A531-48BA-933F-9B1F55D04F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699B91FB-A531-48BA-933F-9B1F55D04F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699B91FB-A531-48BA-933F-9B1F55D04F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C8874F-6EB2-41CE-9443-ED95A4D82B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C8874F-6EB2-41CE-9443-ED95A4D82B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C8874F-6EB2-41CE-9443-ED95A4D82B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C8874F-6EB2-41CE-9443-ED95A4D82B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21712CE2-F3B6-4C8B-84C1-62FF6B7018B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21712CE2-F3B6-4C8B-84C1-62FF6B7018B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21712CE2-F3B6-4C8B-84C1-62FF6B7018B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21712CE2-F3B6-4C8B-84C1-62FF6B7018B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

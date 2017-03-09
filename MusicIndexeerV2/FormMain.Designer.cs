@@ -34,9 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(1302, 713);
             this.Name = "FormMain";
-            this.Text = "FormMain";
+            this.Text = "MusicIndexeerV2";
             this.ResumeLayout(false);
 
         }
