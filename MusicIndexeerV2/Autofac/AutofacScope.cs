@@ -29,6 +29,10 @@ namespace MusicIndexeerV2.Autofac
                 .Where(a => a.Name.EndsWith("Facade"))
                 .AsImplementedInterfaces();
 
+            containerBuilder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+                .Where(a => a.Name.EndsWith("Provider"))
+                .AsImplementedInterfaces();
+
             return containerBuilder.Build().BeginLifetimeScope();
         }
     }

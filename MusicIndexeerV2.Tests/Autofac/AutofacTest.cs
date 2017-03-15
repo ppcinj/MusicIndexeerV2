@@ -14,7 +14,7 @@ namespace MusicIndexeerV2.Tests.Autofac
     public class AutofacTest
     {
         [Test]
-        public void Autofac_BuildContainer_NoExceptionAndCanResolveMostImportantItems()
+        public void Autofac_BuildContainer_NoExceptionAndCanResolve()
         {
             // Arrange
             var amountResolved = 0;
@@ -28,7 +28,7 @@ namespace MusicIndexeerV2.Tests.Autofac
                         var type in
                         Assembly.GetAssembly(typeof(FormMain)).GetTypes()
                             .Where(n => n.Name.StartsWith("Form")).Union(Assembly.GetAssembly(typeof(FormMain)).GetTypes()
-                            .Where(n => n.IsInterface && (n.Name.EndsWith("Repository") || n.Name.EndsWith("Facade")))))
+                            .Where(n => n.IsInterface && (n.Name.EndsWith("Repository") || n.Name.EndsWith("Facade") || n.Name.EndsWith("Provider")))))
                     {
                         scope.Resolve(type);
                         amountResolved++;

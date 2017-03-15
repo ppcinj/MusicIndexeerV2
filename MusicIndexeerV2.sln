@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2.Tests", "Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2.File", "MusicIndexeerV2.File\MusicIndexeerV2.File.csproj", "{D60E2E29-8F37-43B4-A7B8-990F8AE56032}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicIndexeerV2.Config", "MusicINdexeerV2.Config\MusicIndexeerV2.Config.csproj", "{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D60E2E29-8F37-43B4-A7B8-990F8AE56032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D60E2E29-8F37-43B4-A7B8-990F8AE56032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D60E2E29-8F37-43B4-A7B8-990F8AE56032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

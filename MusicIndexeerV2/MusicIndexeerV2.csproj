@@ -60,7 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestRepository.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +91,15 @@
       <Project>{93c8874f-6eb2-41ce-9443-ed95a4d82b5b}</Project>
       <Name>MusicIndexeerV2.Usercontrols</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MusicINdexeerV2.Config\MusicIndexeerV2.Config.csproj">
+      <Project>{b2cd6700-f70a-4e76-848d-9dd1dfe2adaf}</Project>
+      <Name>MusicIndexeerV2.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MusicIndexeerV2.File\MusicIndexeerV2.File.csproj">
+      <Project>{d60e2e29-8f37-43b4-a7b8-990f8ae56032}</Project>
+      <Name>MusicIndexeerV2.File</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D60E2E29-8F37-43B4-A7B8-990F8AE56032}</ProjectGuid>
+    <ProjectGuid>{B2CD6700-F70A-4E76-848D-9DD1DFE2ADAF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MusicIndexeerV2.File</RootNamespace>
-    <AssemblyName>MusicIndexeerV2.File</AssemblyName>
+    <RootNamespace>MusicINdexeerV2.Config</RootNamespace>
+    <AssemblyName>MusicINdexeerV2.Config</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,11 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.WindowsAPICodePack.Core.1.1.0\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.WindowsAPICodePack.Shell.1.1.0\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,19 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BrowserFacade.cs" />
-    <Compile Include="ISafeFileProvider.cs" />
-    <Compile Include="IShellFileProvider.cs" />
-    <Compile Include="ShellFileProvider.cs" />
-    <Compile Include="Song.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ConfigurationFileProvider.cs" />
+    <Compile Include="ConfigurationProvider.cs" />
+    <Compile Include="IConfigurationFileProvider.cs" />
+    <Compile Include="IConfigurationProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SafeFile.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MusicINdexeerV2.Config\MusicIndexeerV2.Config.csproj">
-      <Project>{b2cd6700-f70a-4e76-848d-9dd1dfe2adaf}</Project>
-      <Name>MusicIndexeerV2.Config</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
